@@ -3,14 +3,20 @@ from flask import Flask, render_template, request, redirect, url_for
 import os
 # **create a flask app**
 app = Flask(__name__) 
+
 view function 
+
 represents a html page
 
 # "magic code" -- boilerplate
 if __name__ == '__main__':
+
     app.run(host=os.environ.get('IP'),
+    
             port=int(os.environ.get('PORT')),
+            
             debug=True)
+            
 # **to run the apps**
 1. cd to the working directory folder.
 2. run command "python3 app.py".
