@@ -1,0 +1,36 @@
+{% extends 'layout.template.html' %}
+
+{%block title%}
+Hello, world!
+{%endblock%}
+
+{%block content %}
+    <div class="container">
+        <table class="table">
+            <tr>
+                <td>First Name</td>
+                <td>{{fname}}</td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>{{lname}}</td>
+            </tr>
+            <tr>
+                <td>Comments</td>
+                <td>{{comments}}</td>
+            </tr>
+            <tr>
+                <td>Room Type</td>
+                <td>{{room_type}}</td>
+            </tr>
+            <tr>
+                <td>Amenities</td>
+                <td>{{amenities}}</td>
+            </tr>
+            <tr>
+                <td>Check In Timing</td>
+                <td>{{check_in_timing}}
+            </tr>
+        </table>
+    </div>
+{%endblock%}
