@@ -16,7 +16,7 @@ def hello():
 def about():
     return "About Me"
 
-
+# html template create inside a template folder.
 @app.route('/catalog')
 def show_catalog():
     return render_template('catalog.template.html')
