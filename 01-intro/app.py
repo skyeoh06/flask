@@ -6,6 +6,7 @@ app = Flask(__name__)
 # view function
 # represents a html page
 # single forward slash --> root url
+# line 10 to 12 represent an app route.
 @app.route('/') 
 def hello():
     return "Hello World"
