@@ -1,8 +1,8 @@
 # **the flask app basic template**
 from flask import Flask, render_template, request, redirect, url_for
 import os
-
-app = Flask(__name__) #create a flask app
+# **create a flask app**
+app = Flask(__name__) 
 view function 
 represents a html page
 
